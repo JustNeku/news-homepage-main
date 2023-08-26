@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import './navigation.scss';
 
+import logo from '../assets/images/logo.svg';
+import menuOpen from '../assets/images/icon-menu.svg';
+import menuClose from '../assets/images/icon-menu-close.svg';
+
 function Navigation() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
@@ -24,14 +28,14 @@ function Navigation() {
         <div className='backdrop' data-open={`${isMenuOpen}`} data-closing={`${isClosing}`}></div>
         <nav>
             <div className="logo">
-                <img src="/src/assets/images/logo.svg" alt="logo" />
+                <img src={`${logo}`} alt="logo" />
             </div>
             <div className="menu-btn-open" onClick={toggleMenu}>
-                <img src="/src/assets/images/icon-menu.svg" alt="menu-open" />
+                <img src={`${menuOpen}`} alt="menu-open" />
             </div>
             <div className="menu" data-open={`${isMenuOpen}`} data-closing={`${isClosing}`}>
                 <div className="menu-btn-close"  onClick={toggleMenu}>
-                    <img src="/src/assets/images/icon-menu-close.svg" alt="menu-close" />
+                    <img src={`${menuClose}`} alt="menu-close" />
                 </div>
                 <ul>
                     <li><a href="">Home</a></li>

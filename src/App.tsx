@@ -1,7 +1,12 @@
 import './App.scss'
 import Navigation from './navigation/navigation';
+
 import headlineMobile from './assets/images/image-web-3-mobile.jpg';
 import headlineWeb from './assets/images/image-web-3-desktop.jpg';
+import sub01 from './assets/images/image-retro-pcs.jpg';
+import sub02 from './assets/images/image-top-laptops.jpg';
+import sub03 from './assets/images/image-gaming-growth.jpg';
+
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -66,7 +71,7 @@ function App() {
         <section className="sub">
           <article>
             <div className="article-photo">
-              <img src="/src/assets/images/image-retro-pcs.jpg" alt="Retro PCs" />
+              <img src={`${sub01}`} alt="Retro PCs" />
             </div>
             <span className="number">01</span>
             <a href=''>Reviving Retro PCs</a>
@@ -75,7 +80,7 @@ function App() {
 
           <article>
             <div className="article-photo">
-              <img src="/src/assets/images/image-top-laptops.jpg" alt="Laptops" />
+              <img src={`${sub02}`} alt="Laptops" />
             </div>
             <span className="number">02</span>
             <a href=''>Top 10 Laptops of 2022</a>
@@ -84,7 +89,7 @@ function App() {
           
           <article>
             <div className="article-photo">
-              <img src="/src/assets/images/image-gaming-growth.jpg" alt="Retro PCs" />
+              <img src={`${sub03}`} alt="Retro PCs" />
             </div>
             <span className="number">03</span>
             <a href=''>The Growth of Gaming</a>

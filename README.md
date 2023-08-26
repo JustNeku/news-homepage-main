@@ -30,8 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Frontend Mentor: [Solution](https://www.frontendmentor.io/solutions/responsive-news-homepage-react-neby9BAf5C)
+- Repository: [GitHub](https://github.com/JustNeku/news-homepage-main)
+- Live Site URL: [GitHub pages](https://justneku.github.io/news-homepage-main/)
 
 ## My process
 
